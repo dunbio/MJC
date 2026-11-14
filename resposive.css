@@ -1,0 +1,156 @@
+
+
+
+
+/* design for laptop */
+@media(min-width:535px){
+
+.smartphone
+{
+    display: none;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blue;
+}
+
+
+    
+
+}
+/* design for smartphone */
+*
+{   text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+   box-sizing: border-box;
+   
+}
+@media(max-width:536px){
+
+.Laptop
+{
+    display: none;
+}
+
+body {
+height: 100vh;
+background: url("Ex9MlTC.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+header
+{   color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
+    background-color: gainsboro;
+}
+
+#more_btn
+{
+    background-color: transparent;
+    font-size: 25px;
+    border-radius: 20px;
+    padding : 10px;
+    color: black;
+    
+}
+#delete
+{
+ color: red;
+ 
+ font-size: 25px;
+ font-weight: 700;
+ display: none;
+}
+.homecontainer
+{  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  
+}
+.home{
+    border: solid 2px rgb(73, 72, 72);
+    border-radius: 25px;
+    padding: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(1px) brightness(85%);
+    
+}
+.home input{
+    width : 200px;
+    height: 40px;
+    margin : 2px;
+    border-radius: 25px;
+    padding: 10px;
+    outline :none;
+    background-color: transparent;
+    border : 1px solid rgb(122, 120, 120);
+    color : white;
+    font-weight: 300;
+    
+}
+.home input::placeholder
+{
+    color: rgb(12, 0, 0);
+    font-weight: 100;
+}
+
+
+.linkcontainer
+{
+    
+    display: none;
+    justify-content: flex-end;
+    background-color:transparent;
+    
+}
+.links
+{
+    position: absolute;
+    top:30px;
+    z-index: 100;
+    right: 0px;
+    
+
+    background-color: transparent;
+   
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: flex-end;
+    backdrop-filter: blur(5px)  brightness(70%);
+    outline: none;
+    border-radius: 0px 0px 0px 25px;
+
+    
+}
+
+.links a {
+   color: white; 
+   padding: 5px; 
+   text-decoration: none;
+   font-size : 1.1rem;
+}
+
+.form_btn
+{   width:100%;
+    height: 50px;
+    background-color: green;
+    border-radius: 25px;
+    border: 2px solid rgb(229, 150, 130);
+    font-size: 20px;
+    
+}
+    
+
+}
